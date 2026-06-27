@@ -67,7 +67,13 @@ AModernCppPlayground/
 │   │   ├── state.cpp                 # GoF: State
 │   │   ├── visitor.cpp               # GoF: Visitor
 │   │   ├── chain_of_responsibility.cpp
-│   │   └── software_design/          # ★ NEW: Modern C++ Design Patterns
+│   │   ├── proxy.cpp                 # GoF: Caching/Logging proxy
+│   │   ├── composite.cpp             # GoF: File system tree
+│   │   ├── flyweight.cpp             # GoF: Shared state optimization
+│   │   ├── memento.cpp               # GoF: Undo/Redo history
+│   │   ├── iterator.cpp              # GoF: Custom ring buffer iterator
+│   │   ├── mediator.cpp              # GoF: Event bus
+│   │   └── software_design/          # ★ Modern C++ Design Patterns
 │   │       ├── type_erasure.cpp          # The core pattern of modern C++
 │   │       ├── external_polymorphism.cpp # Polymorphism without modifying types
 │   │       ├── value_based_strategy.cpp  # std::function strategy injection
@@ -119,7 +125,13 @@ AModernCppPlayground/
 │   │   ├── trie.cpp
 │   │   ├── segment_tree.cpp
 │   │   ├── topological_sort.cpp
-│   │   └── bit_manipulation.cpp
+│   │   ├── bit_manipulation.cpp
+│   │   ├── dijkstra.cpp              # Graph: shortest path
+│   │   ├── kmp_string_matching.cpp   # Strings: pattern matching
+│   │   ├── backtracking_nqueens.cpp  # Backtracking with pruning
+│   │   ├── knapsack_01.cpp           # DP: 0/1 knapsack
+│   │   ├── longest_common_subsequence.cpp  # DP: classic 2D
+│   │   └── merge_sort.cpp            # Divide & conquer sort
 │   │
 │   └── stl_like/                     # Custom STL implementations
 │       ├── doubly_linked_list.cpp
@@ -176,7 +188,7 @@ make -j$(nproc)
 | Modern C++ Features | 16 + 5 practical | ★★★★★ |
 | Software Design Patterns (NEW) | 10 | ★★★★★ |
 | Concurrency & Lock-Free | 7 | ★★★★★ |
-| GoF Design Patterns | 14 | ★★★★☆ |
+| GoF Design Patterns | 20 | ★★★★☆ |
 | SOLID Principles | 1 | ★★★★☆ |
 | HFT / Low-Latency | 3 | ★★★★★ |
 | Networking | 2 | ★★★★☆ |
@@ -184,7 +196,7 @@ make -j$(nproc)
 | OS Internals | 2 | ★★★☆☆ |
 | Embedded | 1 | ★★★☆☆ |
 | HPC / GPU | 1 | ★★★☆☆ |
-| DSA Patterns | 9 | ★★★★★ |
+| DSA Patterns | 15 | ★★★★★ |
 | Custom STL | 5 | ★★★★★ |
 
 ---
