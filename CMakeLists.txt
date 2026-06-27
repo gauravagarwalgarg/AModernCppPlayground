@@ -14,7 +14,7 @@ if(CMAKE_BUILD_TYPE STREQUAL "Release")
     add_compile_options(-O2 -march=native)
 endif()
 
-# Auto-discover all .cpp source files
+# Auto-discover all .cpp source files under src/
 file(GLOB_RECURSE ALL_SOURCES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/src/**/*.cpp")
 
 foreach(SOURCE_FILE ${ALL_SOURCES})

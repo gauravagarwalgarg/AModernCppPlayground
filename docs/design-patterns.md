@@ -53,3 +53,26 @@ struct Concrete : Base<Concrete> {
 };
 ```
 - **Interview Q:** "How does CRTP avoid virtual dispatch overhead?"
+
+---
+
+## Beyond GoF: Modern C++ Software Design Patterns
+
+For advanced, modern alternatives to the GoF patterns above, see:
+
+📖 **[Software Design Patterns](software-design-patterns.md)** Type Erasure, External Polymorphism, Strong Types, SBO, and more.
+
+These patterns represent the evolution from inheritance-based OOP to value-semantic, composable designs:
+
+| GoF Pattern | Modern Evolution | File |
+|-------------|-----------------|------|
+| Strategy (virtual) | Value-based via `std::function` | `src/patterns/software_design/value_based_strategy.cpp` |
+| Observer (raw ptrs) | Signal/Slot with RAII connections | `src/patterns/software_design/modern_observer.cpp` |
+| Decorator (inheritance) | Compile-time or type-erased | `src/patterns/software_design/compile_time_decorator.cpp` |
+| Bridge (abstract) | Pimpl with proper Rule of Five | `src/patterns/software_design/pimpl_idiom.cpp` |
+| Prototype (clone) | Within type erasure framework | `src/patterns/software_design/prototype_pattern.cpp` |
+| Visitor (double dispatch) | `std::variant` + `std::visit` | `src/patterns/visitor.cpp` |
+| (new) | Type Erasure (THE modern pattern) | `src/patterns/software_design/type_erasure.cpp` |
+| (new) | External Polymorphism | `src/patterns/software_design/external_polymorphism.cpp` |
+| (new) | Strong Types (CRTP mixin) | `src/patterns/software_design/strong_types.cpp` |
+| (new) | SBO Type Erasure (no heap) | `src/patterns/software_design/small_buffer_optimization.cpp` |

@@ -38,6 +38,16 @@ Features covered in this repo with interview frequency ratings.
 | Coroutines | Cooperative multitasking with co_await/co_yield | (not yet in repo) | ★★ |
 | Modules | Replace headers with import declarations | (not yet in repo) | ★ |
 
+## Practical Modern C++ (Day-to-Day Code)
+
+| Topic | One-liner | File | Interview Freq |
+|-------|-----------|------|----------------|
+| Value Semantics | Regular types, spaceship operator, designated initializers | `src/modern_cpp/practical/value_semantics.cpp` | ★★★★★ |
+| Compile-Time Programming | constexpr tables, consteval hashing, if constexpr dispatch | `src/modern_cpp/practical/compile_time_programming.cpp` | ★★★★★ |
+| RAII Patterns | ScopeGuard, TimerGuard, C API wrappers, transaction safety | `src/modern_cpp/practical/raii_patterns.cpp` | ★★★★★ |
+| Error Handling | Result<T,E>, monadic chaining, optional patterns | `src/modern_cpp/practical/error_handling.cpp` | ★★★★ |
+| Type Traits & Concepts | Custom concepts, constrained templates, subsumption | `src/modern_cpp/practical/type_traits_concepts.cpp` | ★★★★★ |
+
 ## Top 5 Interview Topics (by frequency)
 
 1. **Move semantics** "Explain std::move. When is it useful? What happens after a move?"
@@ -45,3 +55,8 @@ Features covered in this repo with interview frequency ratings.
 3. **RAII** "How does RAII prevent resource leaks? Show a real example."
 4. **Templates** "SFINAE vs Concepts. How does template deduction work?"
 5. **Perfect forwarding** "What problem does std::forward solve? Universal references?"
+
+## Also See
+
+- [C++ Standards Evolution](cpp-standards-evolution.md) Feature timeline from C++98 to C++26
+- [Software Design Patterns](software-design-patterns.md) Type erasure, external polymorphism, strong types
