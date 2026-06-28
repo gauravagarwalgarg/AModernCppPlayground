@@ -1,0 +1,44 @@
+site_name: Modern C++ Playground
+site_description: Production-quality Modern C++ interview prep for HFT, HPC, GPU, Systems
+site_url: https://gauravagarwalgarg.github.io/modern-cpp-playground/
+repo_url: https://github.com/GauravAgarwalGarg/modern-cpp-playground
+repo_name: GauravAgarwalGarg/modern-cpp-playground
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: pink
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.suggest
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Modern C++: modern-cpp.md
+  - Concurrency: concurrency.md
+  - Design Patterns: design-patterns.md
+  - SOLID Principles: solid-principles.md
+  - HFT & Low-Latency: hft-low-latency.md
+  - Networking: networking.md
+  - Linux Programming: linux-programming.md
+  - OS Internals: os-internals.md
+  - HPC & GPU: hpc-gpu.md
+  - Embedded C++: embedded-cpp.md
+  - DSA Patterns: dsa-patterns.md
+  - Interview Roadmap: interview-roadmap.md
