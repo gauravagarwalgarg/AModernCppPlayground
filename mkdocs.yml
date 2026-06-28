@@ -1,0 +1,18 @@
+site_name: Modern C++ Playground
+site_url: https://gauravagarwalgarg.github.io/modern-cpp-playground/
+repo_url: https://github.com/GauravAgarwalGarg/modern-cpp-playground
+theme:
+  name: material
+  palette:
+    - scheme: slate
+  features:
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - tables
+  - toc:
+      permalink: true
