@@ -1,5 +1,12 @@
 # AModernCppPlayground 🏗️
 
+[![CI](https://github.com/gauravagarwalgarg/modern-cpp-playground/actions/workflows/ci.yml/badge.svg)](https://github.com/gauravagarwalgarg/modern-cpp-playground/actions/workflows/ci.yml) [![Docs](https://img.shields.io/badge/docs-live-blue?logo=github)](https://gauravagarwalgarg.github.io/modern-cpp-playground/) ![C++](https://img.shields.io/badge/C++-17/20/23-blue?logo=cplusplus&logoColor=white) [![License](https://img.shields.io/github/license/gauravagarwalgarg/modern-cpp-playground)](https://github.com/gauravagarwalgarg/modern-cpp-playground/blob/main/LICENSE)
+
+> 📖 **Documentation**: [https://gauravagarwalgarg.github.io/modern-cpp-playground/](https://gauravagarwalgarg.github.io/modern-cpp-playground/)
+>
+> 📦 **Repository**: [GitHub](https://github.com/gauravagarwalgarg/modern-cpp-playground)
+
+
 > Production-quality Modern C++ learning & interview preparation repository for HFT, HPC, GPU, Systems, Networking, OS, Embedded, and Low-Latency engineering roles.
 
 ---
